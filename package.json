@@ -1,0 +1,25 @@
+{
+  "name": "dental-clinic-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node ./node_modules/vite/dist/node/cli.js",
+    "build": "node ./node_modules/vite/dist/node/cli.js build",
+    "preview": "node ./node_modules/vite/dist/node/cli.js preview"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.9.4",
+    "lucide-react": "^0.511.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwind-merge": "^3.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.10",
+    "@vitejs/plugin-react": "^5.0.0",
+    "tailwindcss": "^4.1.10",
+    "vite": "^7.0.0"
+  }
+}
