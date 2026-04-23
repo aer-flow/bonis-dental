@@ -1,5 +1,5 @@
 {
-  "buildCommand": "rm -rf dist && mkdir -p dist && cp -R assets contact despre-noi servicii tarife index.html README.md .gitignore dist/",
+  "buildCommand": "node -e \"const fs=require('fs');const path=require('path');const out='dist';fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});for(const item of ['assets','contact','despre-noi','servicii','tarife','index.html','README.md','.gitignore']){fs.cpSync(item,path.join(out,item),{recursive:true});}\"",
   "outputDirectory": "dist",
   "trailingSlash": true
 }
