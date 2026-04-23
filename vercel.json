@@ -1,5 +1,5 @@
 {
-  "buildCommand": "node -e \"const fs=require('fs');const path=require('path');const out='dist';fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});for(const item of ['assets','contact','despre-noi','servicii','tarife','index.html','README.md','.gitignore']){fs.cpSync(item,path.join(out,item),{recursive:true});}\"",
+  "buildCommand": "node build.mjs",
   "outputDirectory": "dist",
   "trailingSlash": true
 }
